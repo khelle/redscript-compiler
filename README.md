@@ -4,7 +4,7 @@
 
 ## Description
 
-[RedScript][2] was created to provide a first class functional experience in the browser. This repository contains a compiler for it written in [JISON][2], which is essentially a clone of the parser generator Bison (thus Yacc,) but in JavaScript.
+[RedScript][1] was created to provide a first class functional experience in the browser. This repository contains a compiler for it written in [JISON][2], which is essentially a clone of the parser generator Bison (thus Yacc,) but in JavaScript.
 
 ## Compiling
 
