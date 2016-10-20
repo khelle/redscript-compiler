@@ -17,7 +17,7 @@ jison redscript.jison
 #### As Command
 
 ```sh
-node redscript.js input.js > output.js
+node redscript.js input.rds > output.js
 ```
 
 #### As Module
