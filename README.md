@@ -42,6 +42,14 @@ parser.parse(input);
 </script>
 ```
 
+## Bibliography
+
+- [JavaScript Spec][4]
+- [RedScript Spec][5]
+- [Flex Manual][6]
+- [Bison Manual][7]
+- [Jison Documentation][8]
+
 ## License
 
 This repository is open-sourced software licensed under the [MIT license][3].
@@ -49,3 +57,8 @@ This repository is open-sourced software licensed under the [MIT license][3].
 [1]: https://github.com/AdamBrodzinski/RedScript
 [2]: http://zaach.github.io/jison
 [3]: http://opensource.org/licenses/MIT
+[4]: https://github.com/khelle/redscript-compiler/blob/master/spec/js-spec.pdf
+[5]: https://github.com/khelle/redscript-compiler/blob/master/spec/rds-spec.html
+[6]: http://dinosaur.compilertools.net/flex/index.html
+[7]: http://dinosaur.compilertools.net/bison/index.html
+[8]: http://zaach.github.io/jison/docs
