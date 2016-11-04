@@ -1,0 +1,117 @@
+
+// define module as whole
+console.log('test')
+
+// prote przypisywanie/usuwanie wartosci
+test = null
+test = void 0
+test = 0xff
+arr = [5,2,"a"]
+// this does not work in 0.9.0
+// arr[2] = "hejka"
+test = { "name": "TestModule", "val": 5}
+
+delete test
+
+a = "A"
+b = "B"
+c = b = a
+
+if (true && (a == 5 | b == "lemur") && h++ || --c || typeof h == "String")
+  val = 0
+else
+  val = 1
+end
+
+class SomeObj 
+  param: "test"
+end
+
+func A
+    return "A"
+end
+
+func C
+    return "C"
+end
+
+func D
+    return "D"
+end
+
+const con = new SomeObj()
+
+func doSmthA
+  myOwn = 55
+
+  return (myOwn) ? true : false 
+end
+
+//switch a
+//  when "A"
+//    A()
+//    break
+//  when "B"
+//  when "C" then C()
+//  default
+//    D()
+//end           
+
+myLabel:
+  tmp = "this is label"
+end
+
+private
+  tmp = "this is private"
+end
+
+throw "Error"
+
+try
+  v = "a"  
+catch errObj
+  v = "b"
+finally
+  v = "c"
+end
+
+with A
+   nop
+end
+
+debugger
+
+
+class Animal
+   def HearMe
+      return "nothing"
+   end
+end
+
+class Dog extends Animal
+  name: "Dog"
+  
+  def HearMe
+    return this.name
+  end
+end
+
+for val of t
+  continue
+end
+
+for key in t
+
+end
+
+for key, val in t
+  break
+end
+
+while somthTrue
+  doSmth()
+end
+
+until somthTrue
+  doSmth()
+end

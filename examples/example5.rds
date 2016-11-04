@@ -1,0 +1,9 @@
+
+// deklracja modulu
+define Exp5Module
+  $name = "Kamil"
+  $nick = "Skie"
+export
+  name from $name
+  nick from $nick
+end

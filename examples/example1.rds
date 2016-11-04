@@ -1,0 +1,16 @@
+
+// demonstracja podstawowych przypisań
+a = 5
+b = 0xff
+c = "to jest String"
+d = true
+e = null
+const f = void 0
+const g = { "a": "A", "b": "B" }
+const h = [ "C", "D" ]
+
+cpy = arr = [a,b,c,d,null,f,g,h]
+
+for record of cpy
+  puts(record)
+end

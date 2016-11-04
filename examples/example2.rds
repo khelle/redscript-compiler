@@ -1,0 +1,50 @@
+
+// demonstracja operatorów
+
+a = 2
+b = 3
+c = 4
+
+// arytmetyczne
+// kazdy operator arytmetyczny posiada swoja wersje z automatycznym przypisaniem , czyli np. + i += , * i *=
+// wdrozono zarowno operatory postfix jak i prefix (a++ i ++a)
+
+puts('===========================================')
+
+puts('+\t' + (a + b))
+puts('-\t' + (a - b))
+puts('*\t' + (a * b))
+puts('/\t' + (a / b))
+puts('%\t' + (a % b))
+puts('U\t' + (-a))
+puts('++\t' + (++a))
+puts('--\t' + (--a))
+puts('instanceof\t' + ([] instanceof Array))
+puts('!\t' + (!a))
+puts('~\t' + (~a))
+
+// logiczne
+
+puts('===========================================')
+
+a = 5
+b = '5'
+
+puts('==\t' + (a == b))
+puts('===\t' + (a === b))
+puts('!=\t' + (a != b))
+puts('!==\t' + (a !== b))
+
+// binarne
+
+puts('===========================================')
+
+a = 5
+b = 2
+
+puts('|\t' + (a | b))
+puts('&\t' + (a & b))
+puts('^\t' + (a ^ b))
+puts('>>\t' + (a >> 1))
+puts('<<\t' + (a << 1))
+puts('>>>\t' + (a >>> 1))

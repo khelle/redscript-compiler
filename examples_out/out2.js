@@ -1,0 +1,34 @@
+puts = function(msg) { console.log(msg); };Class = { extend: function(p,data) { var o, key; o = function() {}; for (key in p) { o.prototype[key] = p[key]; } for (key in data) { o.prototype[key] = data[key];	} o.prototype.extend = Class.extend; return o; }};
+
+a= 2;
+b= 3;
+c= 4;
+puts('===========================================');
+puts('+\t' + (a + b));
+puts('-\t' + (a - b));
+puts('*\t' + (a * b));
+puts('/\t' + (a / b));
+puts('%\t' + (a % b));
+puts('U\t' + (-a));
+puts('++\t' + (++a));
+puts('--\t' + (--a));
+puts('instanceof\t' + ([] instanceof Array));
+puts('!\t' + (!a));
+puts('~\t' + (~a));
+puts('===========================================');
+a= 5;
+b= '5';
+puts('==\t' + (a === b));
+puts('===\t' + (a === b));
+puts('!=\t' + (a !== b));
+puts('!==\t' + (a !== b));
+puts('===========================================');
+a= 5;
+b= 2;
+puts('|\t' + (a | b));
+puts('&\t' + (a & b));
+puts('^\t' + (a ^ b));
+puts('>>\t' + (a >> 1));
+puts('<<\t' + (a << 1));
+puts('>>>\t' + (a >>> 1));
+

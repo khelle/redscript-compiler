@@ -1,0 +1,37 @@
+
+// deklaracja klasy
+class Animal
+  type: "not defined"
+  def getType
+    return @type
+  end
+end
+
+// rozszerzanie klas
+class Dog extends Animal
+  type: "mammal"
+end
+
+class Cat extends Animal
+  type: "mammal"
+end
+
+// deklaracja metod klasy poza cialem klasy
+def Dog >> HearMe
+  puts("Woof!")
+end
+
+def Cat >> HearMe
+  puts("Meow...")  
+end
+
+// deklaracja obiektu
+object PetShop
+  store: [new Dog(),new Cat()]
+  def BuyRandom
+    return @store[Math.floor(Math.random()*2)]
+  end
+end
+
+pet = PetShop.BuyRandom()
+pet.HearMe()

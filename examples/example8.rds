@@ -1,0 +1,28 @@
+class Animal
+   def HearMe
+      return "nothing" 
+   end
+end
+
+class Dog extends Animal
+  name: "Dog"
+  
+  def GetType
+    return this.name
+  end
+end
+
+def Dog >> HearMe
+  return "Woof!"
+end
+
+object Shop
+  items: ["A","B","C"]
+  
+  def getItem(id)
+    return this.items[id]
+  end
+end         
+
+puts(Shop.getItem(1))
+

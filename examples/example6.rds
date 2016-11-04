@@ -1,0 +1,38 @@
+
+// petle
+fruits = ["Apple","Banana","Orange","Raspberry"]
+
+puts("===================================")
+
+i = 0
+while i < fruits.length
+  puts(fruits[i])
+  i = i + 1
+end
+
+puts("===================================")
+
+i = 0
+until i == fruits.length
+  puts(fruits[i])
+  i = i + 1
+end
+
+
+puts("===================================")
+
+for key in fruits
+  puts(fruits[key])
+end
+
+puts("===================================")
+
+for key,fruit in fruits
+  puts(fruit)
+end
+
+puts("===================================")
+
+for fruit of fruits
+   puts(fruit)
+end

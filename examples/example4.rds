@@ -1,0 +1,61 @@
+
+// struktury blokowe
+
+// demonstracja funkcji 
+func Sum(num)
+  if num == 0
+    return 0
+  else
+    return num + Sum(num-1)
+  end
+end
+
+puts(Sum(10))
+
+// demonstracja bloku prywatnego
+private
+   a = 10
+   puts(a)
+end
+
+// demonstracja bloku etykietowanego
+myOwnLabel:
+   puts("This is labelled block")
+end
+
+// demonstracja switcha
+animal = 'cat'
+switch animal
+  when 'dog'
+    puts('woof')
+    break
+  when 'lizard' then puts('...')
+  when 'lion'
+  when 'cat'
+    puts('meow')
+    break
+  default
+    puts('undefined animal')
+end
+
+// obsluga wyjatkow
+a = 10
+try
+  if a > 5 
+    throw "This is Error message."
+  end  
+catch err
+  puts("there was error : " + err)
+finally
+  puts("closing app")
+end
+
+// with
+a = { prop: "Hidden Property" }
+with a
+  puts(prop)
+end
+
+
+
+
